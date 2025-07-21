@@ -1,0 +1,28 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def hello():\n    return \"Hello from Dockerized Flask Web Server!\"\nif __name__ == \"__main__\":\n    app.run(host='0.0.0.0', port=5000)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\n@app.route('/')\ndef hello():\n    return \"Hello from Dockerized Flask Web Server!\"\nif __name__ == \"__main__\":\n    app.run(host='0.0.0.0', port=5000)",
+        "detail": "app",
+        "documentation": {}
+    }
+]
