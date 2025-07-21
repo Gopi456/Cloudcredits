@@ -1,3 +1,4 @@
+
 # Dockerized Web Server (Flask)
 
 ## Overview
@@ -16,3 +17,9 @@ A simple Python Flask web application containerized using Docker and exposed on 
 
 ## Author
 Adapa Gopi Reddy
+=======
+# Cloudcredits
+Internship 
+>>>>>>> 815b6ab6d3357d7be2b602a505d4189f2c48d195
+Merge branch 'main' of https://github.com/Gopi456/Cloudcredits into main
+# Please enter a commit message to explain why this merge is necessary,
